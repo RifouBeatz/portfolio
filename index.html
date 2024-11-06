@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mon Portfolio</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Section d'en-tête -->
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">Mohamed</div>
+            <nav class="space-x-4">
+                <a href="#" class="text-gray-600 hover:text-blue-600">Accueil</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Projets</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section héros -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('img/IMG_8513.JPG');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <h1 class="text-white text-5xl font-bold">Bonjour, je suis Mohamed</h1>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="py-10">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Mes Compétences</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Ingenieur du son</h3>
+                    <p> Un ingenieur du son a pour mission d'enregistrer et d'assurer la qualité sonore pour les spectacles, les concerts, les enregistrements d'album ou les réalisations audiovisuelles.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Beatmaker</h3>
+                    <p>Le Beatmaker, également appelé Producteur créé, compose et/ou arrange une partie musicale existante pour enregistrer ses propres morceaux. Pour de nombreux musiciens, la création de beats pour un titre est la partie de la composition et de l'arrangement qu'ils apprécient le plus</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Front-End Developer</h3>
+                    <p>Un développeur front-end est chargé de la création de la partie visible d'un site internet ou d'une application, à savoir les interfaces graphiques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section class="py-10 bg-gray-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Mes Projets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Projet 1 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="img/bt-Deff-Music-Legui-Nak.jpg.webp" alt="Projet 1" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold mt-4">GAME</h3>
+                    <p>C'est un album de 11 titres j'etais chargé des enregistrements du mix et du mastering des titres</p>
+                </div>
+                <!-- Projet 2 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="img/EK0brOWW4AAxKt6.jpg" alt="" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold mt-4">OGFC</h3>
+                    <p>Un son où un rappeur de mon label clashais dip doundou guiss j'ai produit l'instrumental du son </p>
+                </div>
+                <!-- Projet 3 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="img/0x1900-000000-80-0-0.jpg" alt="Projet 3" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold mt-4">THIAPATHIOLY</h3>
+                    <p>j'ai eu la chance de participer á l'album de oothentik zeus assurant le mix et le mastering </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="py-10">
+        <div class="max-w-md mx-auto px-4 text-center">
+            <h2 class="text-xl font-bold mb-4">Contactez-moi</h2>
+            <form action="#" method="POST" class="space-y-4">
+                <input type="text" placeholder="Votre nom" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-500">
+                <input type="email" placeholder="Votre email" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-500">
+                <textarea placeholder="Votre message" required
+                          class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-500"></textarea>
+                <button type="submit"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-200">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="max-w-md mx-auto text-center">
+            <div class="flex justify-center space-x-4 mb-4">
+                <!-- Icônes des médias sociaux -->
+                <a href="#" aria-label='Facebook'><img src='' alt='Facebook' /></a>
+                <a href="#" aria-label='Twitter'><img src='' alt='Twitter' /></a>
+                <a href="#" aria-label='LinkedIn'><img src='' alt='LinkedIn' /></a>
+            </div>
+            <p>&copy; 2024 Mohamed. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
